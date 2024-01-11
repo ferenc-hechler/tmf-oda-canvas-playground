@@ -1,0 +1,3 @@
+[submodule "oda-canvas"]
+	path = oda-canvas
+	url = https://github.com/tmforum-oda/oda-canvas.git
