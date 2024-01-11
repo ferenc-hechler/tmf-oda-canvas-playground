@@ -13,6 +13,6 @@ cd ..
 
 REM check installed canvas versions
 kubectl get crd components.oda.tmforum.org -o jsonpath='{.spec.versions[?(@.served==true)].name}'
-@echo
+@echo " "
 
 

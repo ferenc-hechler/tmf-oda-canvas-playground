@@ -26,9 +26,13 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 
 helm repo add istio https://istio-release.storage.googleapis.com/charts
 helm repo update
+
 kubectl create namespace istio-system --dry-run=client -oyaml | kubectl apply -f -
+
 helm upgrade --install istio-base istio/base -n istio-system
 helm upgrade --install istiod istio/istiod -n istio-system --wait
+
 kubectl create namespace istio-ingress --dry-run=client -oyaml | kubectl apply -f -
 kubectl label namespace istio-ingress istio-injection=enabled
+
 helm upgrade --install istio-ingress istio/gateway -n istio-ingress --set labels.app=istio-ingress --set labels.istio=ingressgateway --wait
