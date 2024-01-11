@@ -319,7 +319,7 @@ npm install
 
 export KEYCLOAK_USER=admin 
 export KEYCLOAK_PASSWORD=adpass 
-export KEYCLOAK_BASE_URL=http://keycloack-ip:8083/auth/ 
+export KEYCLOAK_BASE_URL=http://canvas-keycloak.canvas.svc.cluster.local:8083/auth/ 
 export KEYCLOAK_REALM=myrealm
   
 npm start
@@ -328,31 +328,16 @@ npm start
 Output:
 
 ```
-coder@code-server-5f9fd4fb6b-njjmq:~/oda-canvas/compliance-test-kit/BDD-and-TDD$ npm start
-
 > ODA Canvas BDD tests@0.0.1 start
 > cucumber-js  --publish
 
-(node:8432) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:13226) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-.F-........U........U........U.......................
+...........U........U........U.......................
 
 Failures:
 
-1) Scenario: Create role for security user in the identity platform # features/UC001-F001-Bootstrap-Apply-Standard-Defined-Role-to-Canvas-Admin-user.feature:12
-   ✔ Given An example package 'productcatalog-v1beta2' has been installed # features/steps/TDD-implementation-steps.js:52
-   ✖ When the 'productcatalog' component has a deployment status of 'Complete' # features/steps/TDD-implementation-steps.js:63
-       AssertionError [ERR_ASSERTION]: The Component resource should be found within 100000 seconds
-           + expected - actual
-
-           -false
-           +true
-
-           at World.<anonymous> (/home/coder/oda-canvas/compliance-test-kit/BDD-and-TDD/features/steps/TDD-implementation-steps.js:74:12)
-           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-   - Then I should see the predefined role assigned to the 'seccon' user for the 'productcatalog' component in the identity platform # features/steps/TDD-implementation-steps.js:221
-
-2) Scenario: Create API Resource for Security API # features/UC002-F001-Expose-APIs-Create-API-Resource.feature:19
+1) Scenario: Create API Resource for Security API # features/UC002-F001-Expose-APIs-Create-API-Resource.feature:19
    ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
    ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
    ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component
@@ -364,7 +349,7 @@ Failures:
          });
        
 
-3) Scenario: Test API Resource URL for Security API # features/UC002-F002-Expose-APIs-Publish-API-Resource-URL.feature:19
+2) Scenario: Test API Resource URL for Security API # features/UC002-F002-Expose-APIs-Publish-API-Resource-URL.feature:19
    ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
    ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
    ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component with a url on the Service Mesh or Gateway
@@ -376,7 +361,7 @@ Failures:
          });
        
 
-4) Scenario: Verify API Resource is ready for Security API # features/UC002-F003-Expose-APIs-Verify-API-implementation-is-ready.feature:19
+3) Scenario: Verify API Resource is ready for Security API # features/UC002-F003-Expose-APIs-Verify-API-implementation-is-ready.feature:19
    ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
    ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
    ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component with an implementation ready status on the Service Mesh or Gateway
@@ -388,15 +373,14 @@ Failures:
          });
        
 
-16 scenarios (1 failed, 3 undefined, 12 passed)
-53 steps (1 failed, 3 undefined, 1 skipped, 48 passed)
-2m43.073s (executing steps: 2m42.082s)
+16 scenarios (3 undefined, 13 passed)
+53 steps (3 undefined, 50 passed)
+2m13.264s (executing steps: 2m12.302s)
 ┌──────────────────────────────────────────────────────────────────────────┐
 │ View your Cucumber Report at:                                            │
-│ https://reports.cucumber.io/reports/b755e420-75fc-4c6a-b195-56288660339f │
+│ https://reports.cucumber.io/reports/db40f17a-ce07-4dec-9c66-ba661ef585d0 │
 │                                                                          │
 │ This report will self-destruct in 24h.                                   │
 │ Keep reports forever: https://reports.cucumber.io/profile                │
 └──────────────────────────────────────────────────────────────────────────┘
-
 ```

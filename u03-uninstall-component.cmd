@@ -1,3 +1,3 @@
 cd /D "%~dp0"
 
-helm uninstall prodcat -n components || true  
+helm uninstall ctk -n components || true  
