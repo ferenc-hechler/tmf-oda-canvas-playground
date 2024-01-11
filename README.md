@@ -6,6 +6,7 @@ clone oda-canvas into subfolder oda-canvas:
 
 ```
 git submodule add https://github.com/tmforum-oda/oda-canvas.git
+git submodule add https://github.com/coder/code-server
 ```
 
 # manually create GKE cluster
@@ -268,3 +269,134 @@ The developer-UI of the Product-Catalog-API is accessible in the internet:
 http://35.241.165.184/prodcat-productcatalog/tmf-api/productCatalogManagement/v4/docs/
 
 ![Product-Catalog-Developer-UI](imgs/product-catalog-developer-ui.png)
+
+
+# install code-server
+
+```
+ß4-install-code-server.cmd
+kubectl port-forward -n code-server svc/code-server 8080:8080
+```
+in Browser open http://localhost:8080
+
+
+```
+sudo apt update
+
+## see https://computingforgeeks.com/how-to-install-node-js-on-ubuntu-debian/
+#curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+#sudo apt-get install -y nodejs
+
+# install node js v21, see https://joshtronic.com/2023/11/12/how-to-install-node-js-21-on-ubuntu/
+sudo apt install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_21.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+sudo apt update
+sudo apt install nodejs -y
+
+node -v
+npm -v
+
+#npm install mocha
+#npm install @kubernetes/client-node
+#npm install chai
+#cd oda-canvas/compliance-test-kit/
+#npm test
+
+npm install cucumber
+git clone https://github.com/tmforum-oda/oda-canvas.git
+cd oda-canvas/compliance-test-kit/BDD-and-TDD
+
+cd identity-manager-utils-keycloak
+npm install
+cd ../package-manager-utils-helm
+npm install
+cd ../resource-inventory-utils-kubernetes
+npm install
+cd ..
+npm install
+
+export KEYCLOAK_USER=admin 
+export KEYCLOAK_PASSWORD=adpass 
+export KEYCLOAK_BASE_URL=http://keycloack-ip:8083/auth/ 
+export KEYCLOAK_REALM=myrealm
+  
+npm start
+```
+
+Output:
+
+```
+coder@code-server-5f9fd4fb6b-njjmq:~/oda-canvas/compliance-test-kit/BDD-and-TDD$ npm start
+
+> ODA Canvas BDD tests@0.0.1 start
+> cucumber-js  --publish
+
+(node:8432) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+.F-........U........U........U.......................
+
+Failures:
+
+1) Scenario: Create role for security user in the identity platform # features/UC001-F001-Bootstrap-Apply-Standard-Defined-Role-to-Canvas-Admin-user.feature:12
+   ✔ Given An example package 'productcatalog-v1beta2' has been installed # features/steps/TDD-implementation-steps.js:52
+   ✖ When the 'productcatalog' component has a deployment status of 'Complete' # features/steps/TDD-implementation-steps.js:63
+       AssertionError [ERR_ASSERTION]: The Component resource should be found within 100000 seconds
+           + expected - actual
+
+           -false
+           +true
+
+           at World.<anonymous> (/home/coder/oda-canvas/compliance-test-kit/BDD-and-TDD/features/steps/TDD-implementation-steps.js:74:12)
+           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+   - Then I should see the predefined role assigned to the 'seccon' user for the 'productcatalog' component in the identity platform # features/steps/TDD-implementation-steps.js:221
+
+2) Scenario: Create API Resource for Security API # features/UC002-F001-Expose-APIs-Create-API-Resource.feature:19
+   ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
+   ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
+   ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component
+       Undefined. Implement with the following snippet:
+
+         Then('I should see the {string} or {string} API resource on the {string} component', function (string, string2, string3) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+       
+
+3) Scenario: Test API Resource URL for Security API # features/UC002-F002-Expose-APIs-Publish-API-Resource-URL.feature:19
+   ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
+   ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
+   ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component with a url on the Service Mesh or Gateway
+       Undefined. Implement with the following snippet:
+
+         Then('I should see the {string} or {string} API resource on the {string} component with a url on the Service Mesh or Gateway', function (string, string2, string3) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+       
+
+4) Scenario: Verify API Resource is ready for Security API # features/UC002-F003-Expose-APIs-Verify-API-implementation-is-ready.feature:19
+   ✔ Given An example package 'productcatalog-v1beta2' with a 'productcatalog' component with '1' API in its 'securityFunction' segment # features/steps/TDD-implementation-steps.js:32
+   ✔ When I install the 'productcatalog-v1beta2' package # features/steps/TDD-implementation-steps.js:43
+   ? Then I should see the 'partyrole' or 'permissionSpecificationSet' API resource on the 'productcatalog' component with an implementation ready status on the Service Mesh or Gateway
+       Undefined. Implement with the following snippet:
+
+         Then('I should see the {string} or {string} API resource on the {string} component with an implementation ready status on the Service Mesh or Gateway', function (string, string2, string3) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+       
+
+16 scenarios (1 failed, 3 undefined, 12 passed)
+53 steps (1 failed, 3 undefined, 1 skipped, 48 passed)
+2m43.073s (executing steps: 2m42.082s)
+┌──────────────────────────────────────────────────────────────────────────┐
+│ View your Cucumber Report at:                                            │
+│ https://reports.cucumber.io/reports/b755e420-75fc-4c6a-b195-56288660339f │
+│                                                                          │
+│ This report will self-destruct in 24h.                                   │
+│ Keep reports forever: https://reports.cucumber.io/profile                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+```
