@@ -1,10 +1,10 @@
 cd /D "%~dp0"
 
-set CLUSTER_NAME=cluster-1
+set CLUSTER_NAME=ihc-fhechler
 
 set PROJECT_ID=tmforum-oda-component-cluster
-set REGION=europe-west4
-set ZONE=europe-west4-a
+set REGION=europe-west1
+set ZONE=europe-west1-b
 
 REM proxy for internet
 set HTTP_PROXY=http://sia-lb.telekom.de:8080

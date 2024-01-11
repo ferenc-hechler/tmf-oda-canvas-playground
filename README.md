@@ -8,6 +8,30 @@ clone oda-canvas into subfolder oda-canvas:
 git submodule add https://github.com/tmforum-oda/oda-canvas.git
 ```
 
+# manually create GKE cluster
+
+https://console.cloud.google.com/kubernetes/list/overview?project=tmforum-oda-component-cluster
+
+In clusters menu click on "[+] create" button
+
+select "Standard: You manage your cluster "
+
+enter cluster name "ihc-fhechler"
+
+select "zonal" europe-west1-b  --> europe-west4-a run out of IP address quota
+
+Select "static" control plane version "1.25.16-gke-1041000"
+
+In Menu "default-pool"
+
+* [x] enable cluster autoscaler
+* min: 0
+* max: 6
+
+In Menu "default-pool">"Nodes":
+
+* Boot-Disk-Type "Standard persistent disk"
+
 ## Setup gcloud
 
 ### set internet proxy (if neccessary)
@@ -33,8 +57,8 @@ gcloud auth login
 
 ```
 set PROJECT_ID=tmforum-oda-component-cluster
-set REGION=europe-west4
-set ZONE=europe-west4-a
+set REGION=europe-west1
+set ZONE=europe-west1-a
 gcloud config set project %PROJECT_ID%
 gcloud config set compute/region %REGION%
 gcloud config set compute/zone %ZONE%
@@ -171,4 +195,76 @@ kubectl get crd components.oda.tmforum.org -o jsonpath='{.spec.versions[?(@.serv
 ```
 
 
+# Deploy component
 
+
+## see logs of component webhook
+
+for debugging it might be interesting to follow the log of the component webhook in a second terminal
+
+```
+kubectl logs -n canvas deployment/compcrdwebhook -f
+```
+
+## Deploy ODA Component 
+
+As an example the Product-Catalog ODA Component from testData is deployed
+
+```
+helm upgrade --install prodcat -n components oda-canvas/compliance-test-kit/BDD-and-TDD/testData/productcatalog-v1beta2
+```
+
+### analyze component state
+
+directly after deployment the DEPLOYMENT_STATUS is "In-Progress-CompCon"
+
+```
+kubectl get components -A
+	NAMESPACE    NAME                     DEPLOYMENT_STATUS
+	components   prodcat-productcatalog   In-Progress-CompCon
+```
+
+The three APIs are not ready
+
+```
+kubectl get API -A
+	NAMESPACE    NAME                                              API_ENDPOINT                                                                       IMPLEMENTATION_READY
+	components   prodcat-productcatalog-metrics                    http://35.241.165.184/prodcat-productcatalog/metrics
+	components   prodcat-productcatalog-partyrole                  http://35.241.165.184/prodcat-productcatalog/tmf-api/partyRoleManagement/v4
+	components   prodcat-productcatalog-productcatalogmanagement   http://35.241.165.184/prodcat-productcatalog/tmf-api/productCatalogManagement/v4
+```
+	
+After some time the APIs get ready:
+
+```
+kubectl get API -A
+	NAMESPACE    NAME                                              API_ENDPOINT                                                                       IMPLEMENTATION_READY
+	components   prodcat-productcatalog-metrics                    http://35.241.165.184/prodcat-productcatalog/metrics                               true
+	components   prodcat-productcatalog-partyrole                  http://35.241.165.184/prodcat-productcatalog/tmf-api/partyRoleManagement/v4        true
+	components   prodcat-productcatalog-productcatalogmanagement   http://35.241.165.184/prodcat-productcatalog/tmf-api/productCatalogManagement/v4   true
+```
+
+The component goes into "In-Progress-SecCon":
+
+```
+kubectl get components -A
+	NAMESPACE    NAME                     DEPLOYMENT_STATUS
+	components   prodcat-productcatalog   In-Progress-SecCon
+```
+
+And a few seconds later into "Complete":
+
+```
+kubectl get components -A
+	NAMESPACE    NAME                     DEPLOYMENT_STATUS
+	components   prodcat-productcatalog   Complete
+```
+
+
+## check URL
+
+The developer-UI of the Product-Catalog-API is accessible in the internet:
+
+http://35.241.165.184/prodcat-productcatalog/tmf-api/productCatalogManagement/v4/docs/
+
+![Product-Catalog-Developer-UI](imgs/product-catalog-developer-ui.png)
