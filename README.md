@@ -9,6 +9,12 @@ git submodule add https://github.com/tmforum-oda/oda-canvas.git
 git submodule add https://github.com/coder/code-server
 ```
 
+if this repository was checked out without "--recursive", the submodules have to be loaded with the following command:
+
+```
+git submodule update --init
+```
+
 # manually create GKE cluster
 
 https://console.cloud.google.com/kubernetes/list/overview?project=tmforum-oda-component-cluster

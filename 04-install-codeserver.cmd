@@ -14,8 +14,10 @@ cd ..
 
 kubectl create clusterrolebinding code-server-cluster-admin-rb --clusterrole=cluster-admin --serviceaccount=code-server:code-server --dry-run=client -oyaml | kubectl apply -f -
 
+@echo off
 echo . create a tunnel
 echo . 
 echo . kubectl port-forward -n code-server svc/code-server 8080:8080
 echo .
 echo . open in browser http://localhost:8080
+@echo on
