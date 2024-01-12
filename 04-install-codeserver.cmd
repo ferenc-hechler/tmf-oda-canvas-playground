@@ -1,6 +1,9 @@
 cd /D "%~dp0"
 
-REM set CODE_SERVER_PASSWORD=
+if "%CODE_SERVER_PASSWORD%"=="" echo CODE_SERVER_PASSWORD is not defined
+if "%CODE_SERVER_PASSWORD%"=="" pause
+if "%CODE_SERVER_PASSWORD%"=="" set CODE_SERVER_PASSWORD=mRz6cMwMTgBnqiR2nQee
+
 echo PASSWORD for login: "%CODE_SERVER_PASSWORD%"
 
 kubectl create namespace code-server --dry-run=client -oyaml | kubectl apply -f -

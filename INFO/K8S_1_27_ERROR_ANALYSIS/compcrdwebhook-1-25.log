@@ -1,0 +1,1997 @@
+Running in production mode
+Server running on port 8443
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta2 and desired version oda.tmforum.org/v1beta3
+Update eventNotification segments
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha4
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha2
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha1
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1beta1
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+Comparing old version oda.tmforum.org/v1beta3 and desired version oda.tmforum.org/v1alpha3
+rename securityFunction and managementFunction segments to security and management
+join id and name fields to create type
+remove the metadata for functionalBlock
+add componentKinds
+add selector
+remove dependentAPIs from management segment
+move the partyrole from the exposedAPIs
+remove dependentAPIs from security segment
