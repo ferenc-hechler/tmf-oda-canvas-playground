@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    cloud.google.com/neg: '{"ingress":true}'
+    meta.helm.sh/release-name: canvas
+    meta.helm.sh/release-namespace: canvas
+  creationTimestamp: "2024-01-15T16:57:29Z"
+  finalizers:
+  - service.kubernetes.io/load-balancer-cleanup
+  labels:
+    app.kubernetes.io/component: keycloak
+    app.kubernetes.io/instance: canvas
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: keycloak
+    helm.sh/chart: keycloak-13.0.2
+  name: canvas-keycloak
+  namespace: canvas
+  resourceVersion: "6467"
+  uid: 0f4db145-0cbe-4e8a-8a1d-53f588cb4eca
+spec:
+  allocateLoadBalancerNodePorts: true
+  clusterIP: 10.52.1.174
+  clusterIPs:
+  - 10.52.1.174
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    nodePort: 31145
+    port: 8083
+    protocol: TCP
+    targetPort: http
+  selector:
+    app.kubernetes.io/component: keycloak
+    app.kubernetes.io/instance: canvas
+    app.kubernetes.io/name: keycloak
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer: {}

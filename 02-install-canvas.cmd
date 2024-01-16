@@ -6,7 +6,7 @@ cd installation/cert-manager-init
 helm dependency update
 cd ../canvas-oda
 helm dependency update
-helm upgrade --install canvas -n canvas --create-namespace .
+helm upgrade --install canvas -n canvas --create-namespace --set keycloak.service.type=ClusterIP .
 cd ../..
 
 cd ..
