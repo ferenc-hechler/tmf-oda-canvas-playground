@@ -190,8 +190,11 @@ helm dependency update
 
 ### install canvas
 
+Configure KeyCloak not to use an external IP (avoid public IP quota issues)
+
 ```
-helm upgrade --install canvas -n canvas --create-namespace .
+#helm upgrade --install canvas -n canvas --create-namespace .
+helm upgrade --install canvas -n canvas --create-namespace --set keycloak.service.type=ClusterIP .
 ```
 
 ### check canvas version
