@@ -1,0 +1,1712 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: canvas/compcrdwebhook
+    meta.helm.sh/release-name: canvas
+    meta.helm.sh/release-namespace: canvas
+  creationTimestamp: "2024-01-16T08:21:34Z"
+  generation: 2
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  name: components.oda.tmforum.org
+  resourceVersion: "10432"
+  uid: 027a0b3b-8c07-46b0-95e4-574b8eda36b8
+spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURhVENDQWxHZ0F3SUJBZ0lRSDFpQ1Mya0VhcVVNSGVEaTF3VXFCREFOQmdrcWhraUc5dzBCQVFzRkFEQVoKTVJjd0ZRWURWUVFERXc1amIyMXdZM0prZDJWaWFHOXZhekFlRncweU5EQXhNVFl3T0RJek5EVmFGdzB5TmpBMwpNRFF3T0RJek5EVmFNQmt4RnpBVkJnTlZCQU1URG1OdmJYQmpjbVIzWldKb2IyOXJNSUlCSWpBTkJna3Foa2lHCjl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF4Ly9taVkvSjFpZVRqcUhha1h4bzMxamtNbDB0UlJSQUp6c3AKS1kvWmpJaWJRYjhLb2NDdzl1U1AyalBCcEFsVmV2bHZjNlNkbFZEc2dsQStPSTBwZVFJNE00YTUxVnZLOGhRcwpOU0RPbGs1V0VQZW1JNTFJZ3RrbVVSUGhsM1BtMEVVbVNQNmFXTzlYRDJCNDlUZXlXbGNGMkVqUVNyYU04cWtvCjdIR0xqQ3NsN1FYckVxSmoyT2RDUEFabUxOWC9WSERCZXhvRkR1TStEOXNORlppYWZHcE9tMGVWUEFxNGgwb0QKV21SS1lOZzZGaXVscHFnSU1aTnVTY3BOOCtPMSs0N3Q4UXBOZUZNVmlxcTE1MFVWakwvcWNQZXk3dVJJeithYgpXV3VHa0ZoY1RKOHF6cUplbGE3TXUyMDU4U1AyaWtGdVk5V0JvNjkzRjEvekNLdzBqUUlEQVFBQm80R3NNSUdwCk1BNEdBMVVkRHdFQi93UUVBd0lGNERBVEJnTlZIU1VFRERBS0JnZ3JCZ0VGQlFjREFUQU1CZ05WSFJNQkFmOEUKQWpBQU1IUUdBMVVkRVFSdE1HdUNEbU52YlhCamNtUjNaV0pvYjI5cmdoVmpiMjF3WTNKa2QyVmlhRzl2YXk1agpZVzUyWVhPQ0dXTnZiWEJqY21SM1pXSm9iMjlyTG1OaGJuWmhjeTV6ZG1PQ0oyTnZiWEJqY21SM1pXSm9iMjlyCkxtTmhiblpoY3k1emRtTXVZMngxYzNSbGNpNXNiMk5oYkRBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQWJ1R3gKdUVHV1NHcldPRmIzWXZXTDNJY0RWd2NxVzJ3SWNuc2hpaXYwV1Q0VjBYbjRKWTh3dmJudG4vdnZmUExyV29xNwpTeFpQeVFEcEFxUTZjSDEvUVlLbGJZd2xraUNYYVNoWXBxUU9LY0V2UDZFMzlWNXRIeDVXM2p5bnBmQ2JkeENmCi81WndrWmgvUWtPa29XVkJvclhCY0VYK0VUOWk1NWwrMTBlLy8vY0lFYkVLa0NZS1ZlV1hiYW52TzVBbmlZRFYKaG9Od0VMN2tJYVRRMTQ4WHZ6eHpHeE9DM0xxKytLUklldnJwZFNSOE1XVkgwWmtTM1dJRTJSc2IxbncwRnpxMApMbFZOV01DSHdEeCtmY2dvUzY3N0hQRHBranlOVFRTRm1sUFcySkRpeUExaDl3S1NGTmsyRTZnRnJLanJHRlJBCkcxOTNuM01kdXR1SWtzSkN3UT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+        service:
+          name: compcrdwebhook
+          namespace: canvas
+          path: /
+          port: 443
+      conversionReviewVersions:
+      - v1beta3
+      - v1beta2
+      - v1beta1
+      - v1alpha4
+      - v1alpha3
+      - v1alpha2
+      - v1alpha1
+  group: oda.tmforum.org
+  names:
+    kind: component
+    listKind: componentList
+    plural: components
+    singular: component
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: list the endpoints for exposed APIs
+      jsonPath: .status.summary/status.exposedAPIsummary
+      name: exposed_APIs
+      type: string
+    - description: list the Developer User Interface(s)
+      jsonPath: .status.summary/status.developerUIsummary
+      name: developer_UI
+      type: string
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              componentKinds:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              coreFunction:
+                properties:
+                  dependantAPIs:
+                    items:
+                      properties:
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        developerUI:
+                          type: string
+                        implementation:
+                          type: string
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        port:
+                          type: integer
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              description:
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              maintainers:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              management:
+                items:
+                  properties:
+                    href:
+                      type: string
+                    name:
+                      type: string
+                    specification:
+                      type: string
+                  type: object
+                type: array
+              owners:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              security:
+                properties:
+                  securitySchemes:
+                    type: object
+                    x-kubernetes-preserve-unknown-fields: true
+                type: object
+              selector:
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              type:
+                type: string
+              version:
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: false
+    storage: false
+  - additionalPrinterColumns:
+    - description: list the endpoints for exposed APIs
+      jsonPath: .status.summary/status.exposedAPIsummary
+      name: exposed_APIs
+      type: string
+    - description: list the Developer User Interface(s)
+      jsonPath: .status.summary/status.developerUIsummary
+      name: developer_UI
+      type: string
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1alpha2
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              componentKinds:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              coreFunction:
+                properties:
+                  dependantAPIs:
+                    items:
+                      properties:
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        developerUI:
+                          type: string
+                        implementation:
+                          type: string
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        port:
+                          type: integer
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              description:
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              maintainers:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              management:
+                items:
+                  properties:
+                    href:
+                      type: string
+                    name:
+                      type: string
+                    specification:
+                      type: string
+                  type: object
+                type: array
+              owners:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              security:
+                properties:
+                  partyrole:
+                    properties:
+                      developerUI:
+                        type: string
+                      implementation:
+                        type: string
+                      path:
+                        type: string
+                      port:
+                        type: integer
+                      specification:
+                        type: string
+                    type: object
+                  permissionSpecificationSet:
+                    properties:
+                      developerUI:
+                        type: string
+                      implementation:
+                        type: string
+                      path:
+                        type: string
+                      port:
+                        type: integer
+                      specification:
+                        type: string
+                    type: object
+                  securitySchemes:
+                    type: object
+                    x-kubernetes-preserve-unknown-fields: true
+                type: object
+              selector:
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              type:
+                type: string
+              version:
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: false
+    storage: false
+  - additionalPrinterColumns:
+    - description: list the endpoints for exposed APIs
+      jsonPath: .status.summary/status.exposedAPIsummary
+      name: exposed_APIs
+      type: string
+    - description: list the Developer User Interface(s)
+      jsonPath: .status.summary/status.developerUIsummary
+      name: developer_UI
+      type: string
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    deprecated: true
+    deprecationWarning: oda.tmforum.org/v1alpha3 Component is deprecated; Please upgrade
+      to oda.tmforum.org/v1beta2 see https://github.com/tmforum-oda/oda-canvas-charts/issues/9
+    name: v1alpha3
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              componentKinds:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              coreFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        developerUI:
+                          type: string
+                        implementation:
+                          type: string
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        port:
+                          type: integer
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              description:
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              maintainers:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              management:
+                items:
+                  properties:
+                    href:
+                      type: string
+                    name:
+                      type: string
+                    specification:
+                      type: string
+                  type: object
+                type: array
+              owners:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              security:
+                properties:
+                  controllerRole:
+                    type: string
+                  permissionSpecificationSet:
+                    properties:
+                      developerUI:
+                        type: string
+                      implementation:
+                        type: string
+                      path:
+                        type: string
+                      port:
+                        type: integer
+                      specification:
+                        type: string
+                    type: object
+                  securitySchemes:
+                    type: object
+                    x-kubernetes-preserve-unknown-fields: true
+                type: object
+              selector:
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              type:
+                type: string
+              version:
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: false
+  - additionalPrinterColumns:
+    - description: list the endpoints for exposed APIs
+      jsonPath: .status.summary/status.exposedAPIsummary
+      name: exposed_APIs
+      type: string
+    - description: list the Developer User Interface(s)
+      jsonPath: .status.summary/status.developerUIsummary
+      name: developer_UI
+      type: string
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1alpha4
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              componentKinds:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              coreFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          type: string
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          type: string
+                        developerUI:
+                          type: string
+                        implementation:
+                          type: string
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        port:
+                          type: integer
+                        specification:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              description:
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              maintainers:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              management:
+                items:
+                  properties:
+                    apitype:
+                      type: string
+                    basicAuth:
+                      properties:
+                        password:
+                          properties:
+                            key:
+                              type: string
+                            name:
+                              type: string
+                          type: object
+                        username:
+                          properties:
+                            key:
+                              type: string
+                            name:
+                              type: string
+                          type: object
+                      type: object
+                    developerUI:
+                      type: string
+                    implementation:
+                      type: string
+                    name:
+                      type: string
+                    path:
+                      type: string
+                    port:
+                      type: integer
+                    specification:
+                      type: string
+                  type: object
+                type: array
+              owners:
+                items:
+                  type: object
+                  x-kubernetes-preserve-unknown-fields: true
+                type: array
+              security:
+                properties:
+                  controllerRole:
+                    type: string
+                  permissionSpecificationSet:
+                    properties:
+                      apitype:
+                        type: string
+                      developerUI:
+                        type: string
+                      implementation:
+                        type: string
+                      path:
+                        type: string
+                      port:
+                        type: integer
+                      specification:
+                        type: string
+                    type: object
+                  securitySchemes:
+                    type: object
+                    x-kubernetes-preserve-unknown-fields: true
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              selector:
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              type:
+                type: string
+              version:
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: false
+  - additionalPrinterColumns:
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1beta1
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              coreFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        specification:
+                          description: url to the specification of the API, if required.
+                            e.g. url to the swagger file for Open API.
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              description:
+                description: This is a short description of the component's purpose.
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              maintainers:
+                description: Maintainers is an optional list of maintainers of the
+                  component. The maintainers in this list maintain the the source
+                  code, images, and package for the component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of maintaining organization.
+                      type: string
+                  type: object
+                type: array
+              management:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              owners:
+                description: Owners is an optional list of the owners of the installed
+                  component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of owning organization.
+                      type: string
+                  type: object
+                type: array
+              security:
+                properties:
+                  controllerRole:
+                    description: This is the name of the role that the Canvas controllers
+                      will use to interact with the component's APIs. It must exist
+                      in the roles exposed by the permissionSpecificationSet API.
+                    type: string
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              type:
+                description: This is the type of functional component and must refer
+                  to a TM Forum published type.
+                example: TMFC001-productcatalogmanagement
+                type: string
+              version:
+                description: This is the version of the component (it is specific
+                  to the vendor of this component and not the type).
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: false
+  - additionalPrinterColumns:
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1beta2
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              coreFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API, if required.
+                            e.g. url to the swagger file for Open API.
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              description:
+                description: This is a short description of the component's purpose.
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        href:
+                          type: string
+                        name:
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              functionalBlock:
+                description: This is the functional block of the component with the
+                  Open Digital Architecture.
+                example: CoreCommerce
+                type: string
+              id:
+                description: This is the id of functional component and must refer
+                  to the id of a TM Forum published golden component.
+                example: TMFC001
+                type: string
+              maintainers:
+                description: Maintainers is an optional list of maintainers of the
+                  component. The maintainers in this list maintain the the source
+                  code, images, and package for the component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of maintaining organization.
+                      type: string
+                  type: object
+                type: array
+              managementFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              name:
+                description: This is the name of functional component and must refer
+                  to the name of a TM Forum published golden component.
+                example: ProductCatalogManagement
+                type: string
+              owners:
+                description: Owners is an optional list of the owners of the installed
+                  component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of owning organization.
+                      type: string
+                  type: object
+                type: array
+              publicationDate:
+                description: This is the date that the golden component was published.
+                format: date-time
+                type: string
+              securityFunction:
+                properties:
+                  controllerRole:
+                    description: This is the name of the role that the Canvas controllers
+                      will use to interact with the component's APIs. It must exist
+                      in the roles exposed by the permissionSpecificationSet API.
+                    type: string
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              status:
+                description: This is the status of the golden component.
+                type: string
+              version:
+                description: This is the version of the component (it is specific
+                  to the vendor of this component and not the type).
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: false
+  - additionalPrinterColumns:
+    - description: Deployment status [in progress, complete, failed]
+      jsonPath: .status.summary/status.deployment_status
+      name: deployment_status
+      type: string
+    name: v1beta3
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              coreFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API, if required.
+                            e.g. url to the swagger file for Open API.
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              description:
+                description: This is a short description of the component's purpose.
+                type: string
+              eventNotification:
+                properties:
+                  publishedEvents:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        description:
+                          description: (Optional) Description
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        hub:
+                          description: The path to the root of the API
+                          type: string
+                        implementation:
+                          description: The name of the service receiving the notifications
+                          type: string
+                        name:
+                          description: Name of the Topic that this Component is going
+                            to push events into
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        specification:
+                          description: (optional) url to the specification of the
+                            API. e.g. url to the swagger file
+                          format: url
+                          type: string
+                      type: object
+                    type: array
+                  subscribedEvents:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        callback:
+                          description: The path to the callback endpoint
+                          type: string
+                        description:
+                          description: (Optional) Description
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service receiving the notifications
+                          type: string
+                        name:
+                          description: Name of the Topic that this Component is interested
+                            in listening to
+                          type: string
+                        port:
+                          description: The port to which the callback listens to
+                          type: integer
+                        query:
+                          description: (optional) Filter the events that will be sent
+                            to callback endpoint
+                          type: string
+                        specification:
+                          description: (optional) url to the specification of the
+                            API. e.g. url to the swagger file
+                          format: url
+                          type: string
+                      type: object
+                    type: array
+                type: object
+              functionalBlock:
+                description: This is the functional block of the component with the
+                  Open Digital Architecture.
+                example: CoreCommerce
+                type: string
+              id:
+                description: This is the id of functional component and must refer
+                  to the id of a TM Forum published golden component.
+                example: TMFC001
+                type: string
+              maintainers:
+                description: Maintainers is an optional list of maintainers of the
+                  component. The maintainers in this list maintain the the source
+                  code, images, and package for the component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of maintaining organization.
+                      type: string
+                  type: object
+                type: array
+              managementFunction:
+                properties:
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus (metrics) APIs are supported.
+                          enum:
+                          - openapi
+                          - prometheus
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+              name:
+                description: This is the name of functional component and must refer
+                  to the name of a TM Forum published golden component.
+                example: ProductCatalogManagement
+                type: string
+              owners:
+                description: Owners is an optional list of the owners of the installed
+                  component.
+                items:
+                  description: ContactData contains information about an individual
+                    or organization.
+                  properties:
+                    email:
+                      description: Email is the email address.
+                      type: string
+                    name:
+                      description: Name is the descriptive name.
+                      type: string
+                    url:
+                      description: Website address of owning organization.
+                      type: string
+                  type: object
+                type: array
+              publicationDate:
+                description: This is the date that the golden component was published.
+                format: date-time
+                type: string
+              securityFunction:
+                properties:
+                  controllerRole:
+                    description: This is the name of the role that the Canvas controllers
+                      will use to interact with the component's APIs. It must exist
+                      in the roles exposed by the partyRole API.
+                    type: string
+                  dependentAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        name:
+                          description: Name of the API that this component is dependent
+                            on
+                          type: string
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are consumed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      type: object
+                    type: array
+                  exposedAPIs:
+                    items:
+                      properties:
+                        apitype:
+                          description: The type of API specification. Currently only
+                            OpenAPI (swagger) and Prometheus APIs are supported.
+                          enum:
+                          - openapi
+                          type: string
+                        developerUI:
+                          description: (optional) The path to the developer User Interface
+                            for the API
+                          type: string
+                        implementation:
+                          description: The name of the service where the implementation
+                            of the API is found
+                          type: string
+                        name:
+                          description: Name of the API
+                          type: string
+                        path:
+                          description: The path to the root of the API
+                          type: string
+                        port:
+                          description: The port where the API is exposed
+                          type: integer
+                        required:
+                          description: Required is a flag that indicates whether the
+                            API is required or not.
+                          type: boolean
+                        resources:
+                          description: Resources is an optional list of resources
+                            that are exposed by the API.
+                          items:
+                            type: object
+                          type: array
+                        specification:
+                          description: url to the specification of the API. e.g. url
+                            to the swagger file
+                          format: url
+                          type: string
+                      required:
+                      - name
+                      - apitype
+                      - implementation
+                      - path
+                      - port
+                      type: object
+                    type: array
+                type: object
+                x-kubernetes-preserve-unknown-fields: true
+              status:
+                description: This is the status of the golden component.
+                type: string
+              version:
+                description: This is the version of the component (it is specific
+                  to the vendor of this component and not the type).
+                type: string
+            type: object
+          status:
+            type: object
+            x-kubernetes-preserve-unknown-fields: true
+        type: object
+    served: true
+    storage: true
+status:
+  acceptedNames:
+    kind: component
+    listKind: componentList
+    plural: components
+    singular: component
+  conditions:
+  - lastTransitionTime: "2024-01-16T08:21:36Z"
+    message: no conflicts found
+    reason: NoConflicts
+    status: "True"
+    type: NamesAccepted
+  - lastTransitionTime: "2024-01-16T08:21:36Z"
+    message: the initial names have been accepted
+    reason: InitialNamesAccepted
+    status: "True"
+    type: Established
+  storedVersions:
+  - v1beta3
